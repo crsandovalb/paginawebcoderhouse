@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* MOBILE S */
+/*Mobile M*/
+/*Mobile L*/
+/*Tablet*/
+/*TABLET GRANDE */
+/* LAPTOP */
+.indexBanner__texto {
+  font-weight: bold;
+}
+
+.indexHistoria {
+  padding-top: 2rem;
+}
+
+.indexHistoria__texto {
+  font-style: italic;
+  font-size: larger;
+  padding-top: 3rem;
+  font-weight: bold;
+}
+
+.indexCuadros {
+  padding-top: 1rem;
+}
+
+.indexCuadros__prim {
+  border: 1px solid black;
+  font-weight: bold;
+  background-color: #c2d1f0;
+}
+
+.indexCuadros__sec {
+  border: 1px solid black;
+  font-weight: bold;
+  background-color: #c2d1f0;
+}
+
+.indexCuadros__ter {
+  border: 1px solid black;
+  font-weight: bold;
+  background-color: #c2d1f0;
+}
+
+.quienesSomosMV__vision {
+  margin-left: 10rem;
+}
+
+.quienesSomosMV__mision {
+  margin-left: 7rem;
+}
+
+.quienesSomosH5 {
+  font-weight: bolder;
+  font-style: italic;
+  margin-left: 7.5rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.quienesSomosHistoria__img {
+  padding-bottom: 1rem;
+}
+
+.quienesSomosHistoria__texto {
+  margin-top: 7rem;
+  font-weight: bold;
+}
+
+.nuestraFlota__img {
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.nuestraFlota__img:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+.contacto__datos {
+  padding-top: 3rem;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=main.css.map */

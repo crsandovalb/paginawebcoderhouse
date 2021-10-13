@@ -1,0 +1,8 @@
+.nuestraFlota {
+    &__img{
+        transition: all 0.5s linear;
+    }
+    &__img:hover{
+        transform: scale(0.95);
+    }
+}

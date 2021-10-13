@@ -1,0 +1,28 @@
+.quienesSomosMV {
+    &__vision{
+        margin-left: 10rem;
+    }
+    &__mision {
+        margin-left: 7rem;
+
+    }
+}
+
+.quienesSomosH5{
+    font-weight: bolder;
+    font-style: italic;
+    margin-left: 7.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.quienesSomosHistoria{
+    &__img{
+        padding-bottom: 1rem;
+    }
+    &__texto {
+        margin-top: 7rem;
+        font-weight: bold;
+    }
+}
+

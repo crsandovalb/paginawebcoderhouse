@@ -1,0 +1,37 @@
+
+.indexBanner {
+    &__texto{
+        font-weight: bold;
+    }
+
+}
+
+.indexHistoria {
+    padding-top: 2rem;
+    &__texto {
+        font-style: italic;
+        font-size: larger;
+        padding-top: 3rem;
+        font-weight: bold;
+    }
+}
+
+.indexCuadros {
+   padding-top: 1rem;
+   &__prim{
+       border: 1px solid black;
+       font-weight: bold;
+       background-color: #c2d1f0;
+   }
+   &__sec{
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: #c2d1f0;
+   }
+   &__ter{
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: #c2d1f0;
+   }
+
+}
