@@ -50,6 +50,10 @@
   background-color: #c2d1f0;
 }
 
+.footerIndex {
+  border: 1px solid black;
+}
+
 .quienesSomosMV__vision {
   margin-left: 10rem;
 }
