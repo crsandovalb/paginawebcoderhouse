@@ -9,6 +9,18 @@
 
 /* MOBILE S */
 /*Mobile M*/
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .indexCuadros {
+    margin: 2rem;
+  }
+  .contacto__datos {
+    margin: 2rem;
+  }
+  .quienesSomosMV {
+    margin: 2rem;
+  }
+}
+
 /*Mobile L*/
 @media screen and (min-width: 425px) and (max-width: 767.98px) {
   .indexCuadros {
