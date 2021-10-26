@@ -39,11 +39,8 @@
 /* LAPTOP */
 .header {
   background: #333333;
-  /* fallback for old browsers */
-  /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-gradient(linear, left top, right top, from(#dd1818), to(#333333));
   background: linear-gradient(to right, #dd1818, #333333);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .indexBanner__texto {
@@ -204,15 +201,5 @@ body {
 .single-timeline-area .single-timeline-content:hover .timeline-text h6,
 .single-timeline-area .single-timeline-content:focus .timeline-text h6 {
   color: #3f43fd;
-}
-
-.nuestraFlota__img {
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
-}
-
-.nuestraFlota__img:hover {
-  -webkit-transform: scale(0.95);
-          transform: scale(0.95);
 }
 /*# sourceMappingURL=main.css.map */
