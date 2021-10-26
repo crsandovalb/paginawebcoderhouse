@@ -1,26 +1,18 @@
 
-.indexBanner {
-    &__texto{
-        font-weight: bold;
-    }
-
-}
-
 .indexHistoria {
     padding-top: 2rem;
-    &__texto {
-        font-style: italic;
-        font-size: larger;
-        padding-top: 3rem;
-        font-weight: bold;
+
+    &__carta {
+        padding-left: 0;
+        padding-right: 0;
+        width: 64%;
     }
 }
+
 
 .indexCuadros {
    padding-top: 1rem;
-}
-
-.footerIndex {
-    border: 1px solid black;
-    
+    &__prim{
+        width: 97%;
+    }
 }

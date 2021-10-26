@@ -43,27 +43,22 @@
   background: linear-gradient(to right, #dd1818, #333333);
 }
 
-.indexBanner__texto {
-  font-weight: bold;
-}
-
 .indexHistoria {
   padding-top: 2rem;
 }
 
-.indexHistoria__texto {
-  font-style: italic;
-  font-size: larger;
-  padding-top: 3rem;
-  font-weight: bold;
+.indexHistoria__carta {
+  padding-left: 0;
+  padding-right: 0;
+  width: 64%;
 }
 
 .indexCuadros {
   padding-top: 1rem;
 }
 
-.footerIndex {
-  border: 1px solid black;
+.indexCuadros__prim {
+  width: 97%;
 }
 
 body {
@@ -201,5 +196,15 @@ body {
 .single-timeline-area .single-timeline-content:hover .timeline-text h6,
 .single-timeline-area .single-timeline-content:focus .timeline-text h6 {
   color: #3f43fd;
+}
+
+.nuestraFlota__img {
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.nuestraFlota__img:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
 }
 /*# sourceMappingURL=main.css.map */
