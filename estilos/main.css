@@ -70,6 +70,7 @@
 
 .quienesSomos__h1 {
   font-size: 2rem;
+  font-weight: 500;
 }
 
 .lineaTiempo {
@@ -86,12 +87,6 @@
   position: relative;
   z-index: 1;
   padding-left: 180px;
-}
-
-@media only screen and (max-width: 575px) {
-  .single-timeline-area {
-    padding-left: 100px;
-  }
 }
 
 .single-timeline-area .timeline-date {
@@ -112,12 +107,6 @@
   -ms-flex-pack: end;
   justify-content: flex-end;
   padding-right: 60px;
-}
-
-@media only screen and (max-width: 575px) {
-  .single-timeline-area .timeline-date {
-    width: 100px;
-  }
 }
 
 .single-timeline-area .timeline-date::after {
@@ -164,12 +153,6 @@
   border: 1px solid #ebebeb;
 }
 
-@media only screen and (max-width: 575px) {
-  .single-timeline-area .single-timeline-content {
-    padding: 20px;
-  }
-}
-
 .single-timeline-area .single-timeline-content .timeline-icon {
   width: 30px;
   height: 30px;
@@ -203,6 +186,20 @@
           transform: scale(0.95);
 }
 
+.servicio__h1 {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.contacto__h1 {
+  font-size: 1.5rem;
+}
+
+.contacto__carta {
+  padding: 0;
+  border: none;
+}
+
 /* MOBILE S */
 @media screen and (min-width: 319px) and (max-width: 374px) {
   .indexHistoria__carta {
@@ -218,6 +215,15 @@
   }
   .quienesSomos__h1 {
     font-size: 1.3rem;
+  }
+  .single-timeline-area .timeline-date {
+    width: 90px;
+  }
+  .single-timeline-content {
+    padding: 0;
+  }
+  .single-timeline-area {
+    padding-left: 90px;
   }
 }
 
@@ -242,6 +248,12 @@
   .quienesSomos__h1 {
     font-size: 1.3rem;
   }
+  .single-timeline-area .timeline-date {
+    width: 110px;
+  }
+  .single-timeline-area {
+    padding-left: 120px;
+  }
 }
 
 /*Mobile L*/
@@ -264,6 +276,12 @@
   }
   .quienesSomos__h1 {
     font-size: 1.3rem;
+  }
+  .single-timeline-area .timeline-date {
+    width: 110px;
+  }
+  .single-timeline-area {
+    padding-left: 120px;
   }
 }
 

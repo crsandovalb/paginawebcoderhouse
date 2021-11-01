@@ -14,6 +14,15 @@
     .quienesSomos__h1{
         font-size: 1.3rem;
     }
+    .single-timeline-area .timeline-date{
+        width: 90px;
+    }
+    .single-timeline-content{
+        padding: 0;
+    }
+    .single-timeline-area{
+        padding-left: 90px;
+    }
    }
 
 /*Mobile M*/
@@ -37,6 +46,12 @@
     .quienesSomos__h1{
         font-size: 1.3rem;
     }
+    .single-timeline-area .timeline-date{
+        width: 110px;
+    }
+    .single-timeline-area{
+        padding-left: 120px;
+    }
 }
 /*Mobile L*/
 @media screen and (min-width:425px) and (max-width:767.98px){
@@ -58,6 +73,12 @@
     }
     .quienesSomos__h1{
         font-size: 1.3rem;
+    }
+    .single-timeline-area .timeline-date{
+        width: 110px;
+    }
+    .single-timeline-area{
+        padding-left: 120px;
     }
 }
 /*Tablet*/
