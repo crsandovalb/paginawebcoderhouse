@@ -1,6 +1,21 @@
 /* MOBILE S */
 @media screen and (min-width:319px) and (max-width:374px) {
-}
+    .indexHistoria__carta{
+        margin-left: 3.5rem;
+        padding-top: 0;
+        }
+    .indexCuadros{
+        --bs-gutter-x: 0;
+    }
+    .lineaTiempo{
+        margin-left: 0;
+        padding-top: 0;
+    }
+    .quienesSomos__h1{
+        font-size: 1.3rem;
+    }
+   }
+
 /*Mobile M*/
 @media screen and (min-width:375px) and (max-width:424px) {
     .indexCuadros{
@@ -11,6 +26,16 @@
     }
     .quienesSomosMV{
         margin: 2rem;
+    }
+    .indexHistoria__carta{
+        margin-left: 4rem;
+    }
+    .lineaTiempo{
+        margin-left: 0;
+        padding-top: 0;
+    }
+    .quienesSomos__h1{
+        font-size: 1.3rem;
     }
 }
 /*Mobile L*/
@@ -24,13 +49,29 @@
     .quienesSomosMV{
         margin: 3rem;
     }
+    .indexHistoria__carta{
+        margin-left: 4.7rem;
+    }
+    .lineaTiempo{
+        margin-left: 0;
+        padding-top: 0;
+    }
+    .quienesSomos__h1{
+        font-size: 1.3rem;
+    }
 }
 /*Tablet*/
 @media screen and (min-width:768px) and (max-width:1023.98px){
+    .lineaTiempo{
+        margin-left: 0;
+        padding-top: 0;
+    }
 }
+
 /*TABLET GRANDE */ 
 @media screen and (min-width:1024px) and (max-width:1299.98px){
 }
 /* LAPTOP */
 @media screen and (min-width:1300px) and (max-width:1500px){
+
 }

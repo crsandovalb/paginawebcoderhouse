@@ -1,6 +1,14 @@
-.header{
+.header__nav{
     background: #333333; 
     background: -webkit-linear-gradient(to right, #dd1818, #333333);
     background: linear-gradient(to right, #dd1818, #333333);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
     
+}
+
+.contenedorNav{
+    padding-right: 0;
+    padding-left: 0;
 }

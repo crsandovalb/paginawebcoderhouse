@@ -9,27 +9,29 @@
     <link rel="stylesheet" href="./estilos/main.css">
   </head>
   <body>
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-danger header">
-        <div class="container-fluid header__nav">
-          <a class="navbar-brand header__nav--logo" href="./index.html">Transportes Lia Limitada</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse flex-row-reverse bd-highlight" id="navbarNavAltMarkup">
-            <div class="navbar-nav align-items-center header__lista">
-              <a class="nav-link active header_nav--itemLista" aria-current="page" href="./index.html">Home</a>
-              <a class="nav-link header__nav--itemLista" href="./secciones/quienesSomos.html">Quienes somos</a>
-              <a class="nav-link header__nav--itemLista" href="./secciones/galeria.html">Galeria de fotos</a>
-              <a class="nav-link header__nav--itemLista" href="./secciones/servicios.html">Servicios</a>
-              <a class="nav-link header__nav--itemLista" href="./secciones/contacto.html">Contacto</a>
-            </div>
+<header> 
+  <div class="container-fluid contenedorNav">
+    <nav class="navbar navbar-expand-xl navbar-dark bg-danger header__nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">Transportes Lia Limitada</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-row-reverse bd-highlight" id="navbarNavAltMarkup">
+          <div class="navbar-nav align-items-center header__lista">
+            <a class="nav-link active header_nav--itemLista" aria-current="page" href="./index.html">Home</a>
+            <a class="nav-link header__nav--itemLista" href="./secciones/quienesSomos.html">Quienes somos</a>
+            <a class="nav-link header__nav--itemLista" href="./secciones/galeria.html">Galeria de fotos</a>
+            <a class="nav-link header__nav--itemLista" href="./secciones/servicios.html">Servicios</a>
+            <a class="nav-link header__nav--itemLista" href="./secciones/contacto.html">Contacto</a>
           </div>
         </div>
-      </nav>
-  </div>
-<div id="carouselExampleFade" class="carousel slide carousel-fade container-fluid indexBanner" data-bs-ride="carousel">
-    <div class="carousel-inner pt-3">
+      </div>
+    </nav>
+</div>
+</header>
+<div id="carouselExampleFade" class="carousel slide carousel-fade container-fluid indexBanner carruselFotos" data-bs-ride="carousel">
+    <div class="carousel-inner">
       <div class="carousel-item active indexBanner__fotos">
         <img src="./multimedia/bannerIndex (1).jpeg" class="d-block w-100" alt="...">
       </div>
@@ -50,20 +52,19 @@
     </button>
 </div>
 <div class="container pt-6">
-  <div class="row indexHistoria justify-content-sm-center">
-    <div class="card col-sm-8 indexHistoria__carta mx-auto">
-      <div class="card-header text-center">
-        Transportes Lia Limitada
+  <div class="row indexHistoria text-center">
+    <div class="card col-sm-8 indexHistoria__carta align-self-center">
+      <div class="card-header indexHistoria__header">
+        <h1 class="indexHistoria__h1">Transportes Lia Limitada</h1>
       </div>
       <div class="card-body">
-        <h5 class="card-title">Transportando sus necesidades</h5>
-        <p class="card-text">Empresa de transporte dirigida por sus propios dueños. Otorgamos un servicio personalizado de transporte de carga por carretera.</p>
+        <p class="card-text indexHistoria__carta--txt">Empresa de transporte dirigida por sus propios dueños. Otorgamos un servicio personalizado de transporte de carga por carretera.</p>
         <a href="./secciones/contacto.html" class="btn btn-primary btn-danger">Contacto</a>
       </div>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-4 indexHistoria__carta2">
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
+        <div class="carousel-inner indexHistoria__carta2--carr">
           <div class="carousel-item active" data-bs-interval="10000">
             <img src="./multimedia/camiones (29).jpeg" class="d-block w-100" alt="...">
           </div>
@@ -87,26 +88,26 @@
   </div>
 </div>
 <div class="container">
-  <div class="row indexCuadros pb-3 justify-content-sm-around">
-    <div class="col-sm-4">
+  <div class="row indexCuadros pb-3">
+    <div class="col-sm-4 indexCuadros__prim">
       <div class="card w-auto" style="width: 18rem;">
-        <img src="./multimedia/camiones (12).jpeg" class="card-img-top indexCuadros__prim" alt="...">
+        <img src="./multimedia/camiones (12).jpg" class="card-img-top " alt="...">
         <div class="card-body">
           <p class="card-text">En nuestro equipo contamos con personal altamente capacitado para entregar soluciones a sus requerimientos de transporte de carga.</p>
         </div>
       </div>
     </div>
     <div class="col-sm-4">
-      <div class="card w-auto" style="width: 18rem;">
-        <img src="./multimedia/camiones (18).jpeg" class="card-img-top" alt="...">
+      <div class="card w-auto indexCuadros__sec" style="width: 18rem;">
+        <img src="./multimedia/camiones (6).jpg" class="card-img-top indexCuadros__sec--img" alt="...">
         <div class="card-body">
-          <p class="card-text">Desde nuestro origen contamos con más de 100 clientes, quienes avalan que nuestro servicio es de calidad, llevando sus productos con seguridad y confianza.</p>
+          <p class="card-text">Contamos con más de 100 clientes quienes nos avalan, llevando sus productos con seguridad y confianza.</p>
         </div>
       </div>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-4 indexCuadros__ter">
       <div class="card w-auto" style="width: 18rem;">
-        <img src="./multimedia/camiones (27).jpeg" class="card-img-top" alt="...">
+        <img src="./multimedia/camiones (27).jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">Buscamos y analizamos una amplia gama de variables hasta entregar la solución que sus requerimientos necesiten.</p>
         </div>
@@ -150,20 +151,20 @@
             Links de interes
           </h6>
           <p>
-            <a href="https://paginawebcoderhouse.vercel.app/" class="text-reset">Vercel</a>
+            <a href="https://paginawebcoderhouse.vercel.app/" target="_blank" class="text-reset">Vercel</a>
           </p>
           <p>
-            <a href="https://github.com/crsandovalb/paginawebcoderhouse" class="text-reset">Git Hub</a>
+            <a href="https://github.com/crsandovalb/paginawebcoderhouse" target="_blank" class="text-reset">Git Hub</a>
           </p>
           <p>
-            <a href="https://crsandovalb.github.io/paginawebcoderhouse/" class="text-reset">Github Pages</a>
+            <a href="https://crsandovalb.github.io/paginawebcoderhouse/" target="_blank" class="text-reset">Github Pages</a>
           </p>
         </div>
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <h6 class="text-uppercase fw-bold mb-4">
             contacto
           </h6>
-          <p><i class="fas fa-home me-3"></i>Jose Maria Castro 466 villa las garzas, Concepcion</p>
+          <p><i class="fas fa-home me-3"></i>Lientur 860, Concepcion</p>
           <p>
             <i class="fas fa-envelope me-3"></i>
             transportes.lia.ltda@gmail.com

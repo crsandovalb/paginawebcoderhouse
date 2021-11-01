@@ -1,5 +1,10 @@
-body {
-    margin-top: 20px;
+.quienesSomos__h1{
+    font-size: 2rem;
+}
+.lineaTiempo{
+    margin-left: 11rem;
+    padding-top: 2rem;
+    
 }
 .timeline_area {
     position: relative;
@@ -85,8 +90,6 @@ body {
     }
 }
 .single-timeline-area .single-timeline-content .timeline-icon {
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
     width: 30px;
     height: 30px;
     background-color: #9D2222;
@@ -102,19 +105,8 @@ body {
     color: #ffffff;
     line-height: 30px;
 }
-.single-timeline-area .single-timeline-content .timeline-text h6 {
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
-}
 .single-timeline-area .single-timeline-content .timeline-text p {
     font-size: 13px;
     margin-bottom: 0;
 }
-.single-timeline-area .single-timeline-content:hover .timeline-icon,
-.single-timeline-area .single-timeline-content:focus .timeline-icon {
-    background-color: #020710;
-}
-.single-timeline-area .single-timeline-content:hover .timeline-text h6,
-.single-timeline-area .single-timeline-content:focus .timeline-text h6 {
-    color: #3f43fd;
-}
+

@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="../estilos/main.css">
   </head>
   <body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-danger header">
-          <div class="container-fluid header__nav">
+    <div class="container-fluid contenedorNav">
+      <nav class="navbar navbar-expand-xl navbar-dark bg-danger header__nav">
+        <div class="container-fluid">
             <a class="navbar-brand header__nav--logo" href="../index.html">Transportes Lia Limitada</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -29,35 +29,13 @@
           </div>
         </nav>
     </div>
-    <div class="container pt-3 quienesSomosParrafo">
-    </div>
-    <div class="container quienesSomosMV">
-      <div class="row pt-6 justify-content-sm-center">
-        <div class="col-sm-3 quienesSomosMV__mision w-auto">
-          <div class="card" style="width: 18rem;">
-            <img src="../multimedia/camiones (14).jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Nuestra misión es dar conformidad y tranquilidad a nuestros clientes. Proporcionando un servicio personalizado. Empresa dirigida por sus propios dueños.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 quienesSomosMV__vision w-auto" >
-          <div class="card" style="width: 18rem;">
-            <img src="../multimedia/camiones (15).jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Nuestra visión a futuro es contar con camiones modernos de alta tecnología y monitoreados por GPS con terminal informativo en nuestras oficinas.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <section class="timeline_area section_padding_130">
-      <div class="container pt-3">
+      <div class="container-fluid pt-3">
           <div class="row justify-content-center">
               <div class="col-12 col-sm-8 col-lg-6">
                   <!-- Section Heading-->
                   <div class="section_heading text-center">
-                  <h3>La historia de Transportes Lia</h3>
+                  <h1 class="quienesSomos__h1">La historia de Transportes Lia</h1>
                       <div class="line"></div>
                   </div>
               </div>
@@ -65,7 +43,7 @@
           <div class="row">
               <div class="col-12">
                   <!-- Timeline Area-->
-                  <div class="apland-timeline-area">
+                  <div class="apland-timeline-area lineaTiempo">
                       <!-- Single Timeline Content-->
                       <div class="single-timeline-area">
                           <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
@@ -146,6 +124,26 @@
           </div>
       </div>
   </section>
+  <div class="container quienesSomosMV pt-5">
+    <div class="row pt-6 justify-content-sm-around">
+      <div class="col-sm-3 quienesSomosMV__mision w-auto">
+        <div class="card" style="width: 18rem;">
+          <img src="../multimedia/camiones (14).jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Nuestra misión</b> es dar conformidad y tranquilidad a nuestros clientes. Proporcionando un servicio personalizado. Empresa dirigida por sus propios dueños.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 quienesSomosMV__vision w-auto" >
+        <div class="card" style="width: 18rem;">
+          <img src="../multimedia/camiones (15).jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Nuestra visión</b> a futuro es contar con camiones modernos de alta tecnología y monitoreados por GPS con terminal informativo en nuestras oficinas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <footer class="text-center text-lg-start bg-light text-muted">
     <section    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
     </section>
@@ -182,19 +180,19 @@
               Links de interes
             </h6>
             <p>
-              <a href="https://paginawebcoderhouse.vercel.app/" class="text-reset">Vercel</a>
+              <a href="https://paginawebcoderhouse.vercel.app/" target="_blank" class="text-reset">Vercel</a>
             </p>
             <p>
-              <a href="https://github.com/crsandovalb/paginawebcoderhouse" class="text-reset">Git Hub</a>
+              <a href="https://github.com/crsandovalb/paginawebcoderhouse" target="_blank" class="text-reset">Git Hub</a>
             </p>
             <p>
-              <a href="https://crsandovalb.github.io/paginawebcoderhouse/" class="text-reset">Github Pages</a>          </p>
+              <a href="https://crsandovalb.github.io/paginawebcoderhouse/" target="_blank" class="text-reset">Github Pages</a>          </p>
           </div>
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <h6 class="text-uppercase fw-bold mb-4">
               contacto
             </h6>
-            <p><i class="me-3"></i>Jose Maria Castro 466 villa las garzas, Concepcion</p>
+            <p><i class="me-3"></i>Lientur 860, Concepcion</p>
             <p>
               <i class="me-3"></i>
               transportes.lia.ltda@gmail.com

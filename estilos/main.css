@@ -1,68 +1,80 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-/* MOBILE S */
-/*Mobile M*/
-@media screen and (min-width: 375px) and (max-width: 424px) {
-  .indexCuadros {
-    margin: 2rem;
-  }
-  .contacto__datos {
-    margin: 2rem;
-  }
-  .quienesSomosMV {
-    margin: 2rem;
-  }
-}
-
-/*Mobile L*/
-@media screen and (min-width: 425px) and (max-width: 767.98px) {
-  .indexCuadros {
-    margin: 3rem;
-  }
-  .contacto__datos {
-    margin: 3rem;
-  }
-  .quienesSomosMV {
-    margin: 3rem;
-  }
-}
-
-/*Tablet*/
-/*TABLET GRANDE */
-/* LAPTOP */
-.header {
+.header__nav {
   background: #333333;
   background: -webkit-gradient(linear, left top, right top, from(#dd1818), to(#333333));
   background: linear-gradient(to right, #dd1818, #333333);
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+}
+
+.contenedorNav {
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .indexHistoria {
-  padding-top: 2rem;
+  padding-top: 1rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .indexHistoria__carta {
   padding-left: 0;
   padding-right: 0;
   width: 64%;
+  border: none;
+}
+
+.indexHistoria__carta2 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.indexHistoria__h1 {
+  font-size: 1.5rem;
+}
+
+.indexHistoria__header {
+  background-color: white;
 }
 
 .indexCuadros {
   padding-top: 1rem;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .indexCuadros__prim {
-  width: 97%;
+  padding-left: 0;
 }
 
-body {
-  margin-top: 20px;
+.indexCuadros__ter {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.carruselFotos {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.quienesSomos__h1 {
+  font-size: 2rem;
+}
+
+.lineaTiempo {
+  margin-left: 11rem;
+  padding-top: 2rem;
 }
 
 .timeline_area {
@@ -159,8 +171,6 @@ body {
 }
 
 .single-timeline-area .single-timeline-content .timeline-icon {
-  -webkit-transition-duration: 500ms;
-  transition-duration: 500ms;
   width: 30px;
   height: 30px;
   background-color: #9D2222;
@@ -178,24 +188,9 @@ body {
   line-height: 30px;
 }
 
-.single-timeline-area .single-timeline-content .timeline-text h6 {
-  -webkit-transition-duration: 500ms;
-  transition-duration: 500ms;
-}
-
 .single-timeline-area .single-timeline-content .timeline-text p {
   font-size: 13px;
   margin-bottom: 0;
-}
-
-.single-timeline-area .single-timeline-content:hover .timeline-icon,
-.single-timeline-area .single-timeline-content:focus .timeline-icon {
-  background-color: #020710;
-}
-
-.single-timeline-area .single-timeline-content:hover .timeline-text h6,
-.single-timeline-area .single-timeline-content:focus .timeline-text h6 {
-  color: #3f43fd;
 }
 
 .nuestraFlota__img {
@@ -207,4 +202,79 @@ body {
   -webkit-transform: scale(0.95);
           transform: scale(0.95);
 }
+
+/* MOBILE S */
+@media screen and (min-width: 319px) and (max-width: 374px) {
+  .indexHistoria__carta {
+    margin-left: 3.5rem;
+    padding-top: 0;
+  }
+  .indexCuadros {
+    --bs-gutter-x: 0;
+  }
+  .lineaTiempo {
+    margin-left: 0;
+    padding-top: 0;
+  }
+  .quienesSomos__h1 {
+    font-size: 1.3rem;
+  }
+}
+
+/*Mobile M*/
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .indexCuadros {
+    margin: 2rem;
+  }
+  .contacto__datos {
+    margin: 2rem;
+  }
+  .quienesSomosMV {
+    margin: 2rem;
+  }
+  .indexHistoria__carta {
+    margin-left: 4rem;
+  }
+  .lineaTiempo {
+    margin-left: 0;
+    padding-top: 0;
+  }
+  .quienesSomos__h1 {
+    font-size: 1.3rem;
+  }
+}
+
+/*Mobile L*/
+@media screen and (min-width: 425px) and (max-width: 767.98px) {
+  .indexCuadros {
+    margin: 3rem;
+  }
+  .contacto__datos {
+    margin: 3rem;
+  }
+  .quienesSomosMV {
+    margin: 3rem;
+  }
+  .indexHistoria__carta {
+    margin-left: 4.7rem;
+  }
+  .lineaTiempo {
+    margin-left: 0;
+    padding-top: 0;
+  }
+  .quienesSomos__h1 {
+    font-size: 1.3rem;
+  }
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023.98px) {
+  .lineaTiempo {
+    margin-left: 0;
+    padding-top: 0;
+  }
+}
+
+/*TABLET GRANDE */
+/* LAPTOP */
 /*# sourceMappingURL=main.css.map */
