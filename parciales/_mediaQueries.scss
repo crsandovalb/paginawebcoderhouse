@@ -1,12 +1,5 @@
 /* MOBILE S */
 @media screen and (min-width:319px) and (max-width:374px) {
-    .indexHistoria__carta{
-        margin-left: 3.5rem;
-        padding-top: 0;
-        }
-    .indexCuadros{
-        --bs-gutter-x: 0;
-    }
     .lineaTiempo{
         margin-left: 0;
         padding-top: 0;
@@ -27,9 +20,6 @@
 
 /*Mobile M*/
 @media screen and (min-width:375px) and (max-width:424px) {
-    .indexCuadros{
-        margin: 2rem;
-    }
     .contacto__datos{
         margin: 2rem;
     }
@@ -55,9 +45,6 @@
 }
 /*Mobile L*/
 @media screen and (min-width:425px) and (max-width:767.98px){
-    .indexCuadros{
-        margin: 3rem;
-    }
     .contacto__datos{
         margin: 3rem;
     }

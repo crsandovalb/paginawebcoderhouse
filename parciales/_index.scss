@@ -1,42 +1,13 @@
-.indexHistoria {
-    padding-top: 1rem;
-    justify-content: space-between;
-    &__carta {
-        padding-left: 0;
-        padding-right: 0;
-        width: 64%;
-        border: none; 
-    }
-    &__carta2{
-        padding-right: 0;
-        padding-left: 0;
-      
-    }
-    &__h1{
-        font-size: 1.5rem;
-        
-    }
-    &__header{
-        background-color: white;
-    }
-}
-
-.indexCuadros {
-   padding-top: 1rem;
-   padding-left: 0;
-   padding-right: 0;
-    &__prim{
-        padding-left: 0;
-    }
-
-    &__ter{
-        padding-right: 0;
-        padding-left: 0;
-                
-    }
-}
-
 .carruselFotos{
     padding-left: 0;
     padding-right: 0;
+}
+.indexCarta1{
+    border: none;
+    &__header{
+        background: white;
+    }
+    &__h1{
+        font-size: 2rem;
+    }
 }
