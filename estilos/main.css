@@ -146,16 +146,6 @@
   margin-bottom: 0;
 }
 
-.nuestraFlota__img {
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
-}
-
-.nuestraFlota__img:hover {
-  -webkit-transform: scale(0.95);
-          transform: scale(0.95);
-}
-
 .servicio__h1 {
   font-size: 1rem;
   color: #6c757d;

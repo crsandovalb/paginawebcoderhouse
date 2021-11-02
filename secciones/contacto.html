@@ -1,171 +1,133 @@
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="contacto, formulario, telefono, email">
-    <meta name="description" content="Datos generales de la empresa junto a una caja de contacto para sus clientes">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <title>Contacto empresa Transportes Lia Limitada</title>
-    <link rel="stylesheet" href="../estilos/main.css">
-  </head>
-  <div class="container-fluid contenedorNav">
-    <nav class="navbar navbar-expand-xl navbar-dark bg-danger header__nav">
-      <div class="container-fluid">
-        <a class="navbar-brand header__nav--logo" href="../index.html">Transportes Lia Limitada</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse flex-row-reverse bd-highlight" id="navbarNavAltMarkup">
-          <div class="navbar-nav align-items-center header__lista">
-            <a class="nav-link header__nav--itemLista" href="../index.html">Home</a>
-            <a class="nav-link header__nav--itemLista" href="../secciones/quienesSomos.html">Quienes somos</a>
-            <a class="nav-link header__nav--itemLista" href="../secciones/galeria.html">Galeria de fotos</a>
-            <a class="nav-link header__nav--itemLista" href="../secciones/servicios.html">Servicios</a>
-            <a class="nav-link active header__nav--itemLista" aria-current="page" href="../secciones/contacto.html">Contacto</a>
-          </div>
-        </div>
-      </div>
-    </nav>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="contacto, formulario, telefono, email">
+	<meta name="description" content="Datos generales de la empresa junto a una caja de contacto para sus clientes">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<title>Contacto empresa Transportes Lia Limitada</title>
+	<link rel="stylesheet" href="../estilos/main.css"> </head>
+<!--nav-->
+<div class="container-fluid contenedorNav">
+	<nav class="navbar navbar-expand-xl navbar-dark bg-danger header__nav">
+		<div class="container-fluid"> <a class="navbar-brand header__nav--logo" href="../index.html">Transportes Lia Limitada</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+			<div class="collapse navbar-collapse flex-row-reverse bd-highlight" id="navbarNavAltMarkup">
+				<div class="navbar-nav align-items-center header__lista"> <a class="nav-link header__nav--itemLista" href="../index.html">Home</a> <a class="nav-link header__nav--itemLista" href="../secciones/quienesSomos.html">Quienes somos</a> <a class="nav-link header__nav--itemLista" href="../secciones/galeria.html">Galeria de fotos</a> <a class="nav-link header__nav--itemLista" href="../secciones/servicios.html">Servicios</a> <a class="nav-link active header__nav--itemLista" aria-current="page" href="../secciones/contacto.html">Contacto</a> </div>
+			</div>
+		</div>
+	</nav>
 </div>
+<!--Form-->
 <div class="container-fluid">
-  <div class="row  justify-content-sm-center">
-    <div class="col-md-7">
-      <div class="formulario pt-4 mx-5">
-        <div class="card contacto__carta">
-          <div class="card-body contacto__carta">
-            <h1 class="contacto__h1">Contáctese con Nosotros</h1>
-          </div>
-        </div>
-        <form action="" method="get">
-            <div class="row mb-3 formulario__nombres">
-              <label for="nombreYapellido" class="col-sm-2 col-form-label">Nombre</label>
-              <div class="col-sm-10">
-                <input type="text" class="form-control" id="nombreYapellido" placeholder="Ingrese su nombre">
-              </div>
-            </div>
-            <div class="row mb-3 formulario__email">
-              <label for="correoElectronico" class="col-sm-2 col-form-label">Correo</label>
-              <div class="col-sm-10">
-                <input type="email" class="form-control" id="correoElectronico" placeholder="Ingrese su correo electronico">
-              </div>
-            </div>
-            <fieldset class="row mb-3 formulario__tipoCamiones">
-              <legend class="col-form-label col-sm-2 pt-0">Camión</legend>
-              <div class="col-sm-10">
-                <div class="form-check formulario__tipoCamiones--camion1">
-                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                  <label class="form-check-label" for="gridRadios1">
-                    Camión 1 Freightliner FLA 8664 ST
-                  </label>
-                </div>
-                <div class="form-check formulario__tipoCamiones--camion2">
-                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                  <label class="form-check-label" for="gridRadios2">
-                    Camión 2 Freightliner FLA 8664
-                  </label>
-                </div>
-                <div class="mb-3 formulario__comentario">
-                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ingrese su mensaje"></textarea>
-                  </div>
-              </div>
-            </fieldset>
-            <div class="row mb-3">
-              <div class="col-sm-10 offset-sm-2">
-                <div class="form-check formulario__checkInformacion">
-                  <input class="form-check-input" type="checkbox" id="gridCheck1">
-                  <label class="form-check-label" for="gridCheck1">
-                    Acepto que la información proporcionada es la correcta
-                  </label>
-                </div>
-              </div>
-            </div>
-            <button type="submit" class="btn btn-primary btn-danger">Enviar</button>
-          </form>
-    </div>
-    </div>
-    <div class="col-md-4 pt-4 contacto__datos w-auto">
-      <div class="card" style="width: 18rem;">
-        <img src="../multimedia/camiones (18).jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Lientur 860, Concepción</h5>
-          <p class="card-text">Transportes.lia.ltda@gmail.com</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">+569 77676 684</li>
-          <li class="list-group-item">+569 33529 940</li>
-          <li class="list-group-item">+567 56628 609</li>
-        </ul>
-      </div>
-    </div>
-  </div>
+	<div class="row  justify-content-sm-center">
+		<div class="col-md-7">
+			<div class="formulario pt-4 mx-5">
+				<div class="card contacto__carta">
+					<div class="card-body contacto__carta">
+						<h1 class="contacto__h1">Contáctese con Nosotros</h1> </div>
+				</div>
+				<form action="" method="get">
+					<div class="row mb-3 formulario__nombres">
+						<label for="nombreYapellido" class="col-sm-2 col-form-label">Nombre</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="nombreYapellido" placeholder="Ingrese su nombre"> </div>
+					</div>
+					<div class="row mb-3 formulario__email">
+						<label for="correoElectronico" class="col-sm-2 col-form-label">Correo</label>
+						<div class="col-sm-10">
+							<input type="email" class="form-control" id="correoElectronico" placeholder="Ingrese su correo electronico"> </div>
+					</div>
+					<fieldset class="row mb-3 formulario__tipoCamiones">
+						<legend class="col-form-label col-sm-2 pt-0">Camión</legend>
+						<div class="col-sm-10">
+							<div class="form-check formulario__tipoCamiones--camion1">
+								<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+								<label class="form-check-label" for="gridRadios1"> Camión 1 Freightliner FLA 8664 ST </label>
+							</div>
+							<div class="form-check formulario__tipoCamiones--camion2">
+								<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+								<label class="form-check-label" for="gridRadios2"> Camión 2 Freightliner FLA 8664 </label>
+							</div>
+							<div class="mb-3 formulario__comentario">
+								<label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+								<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ingrese su mensaje"></textarea>
+							</div>
+						</div>
+					</fieldset>
+					<div class="row mb-3">
+						<div class="col-sm-10 offset-sm-2">
+							<div class="form-check formulario__checkInformacion">
+								<input class="form-check-input" type="checkbox" id="gridCheck1">
+								<label class="form-check-label" for="gridCheck1"> Acepto que la información proporcionada es la correcta </label>
+							</div>
+						</div>
+					</div>
+					<button type="submit" class="btn btn-primary btn-danger">Enviar</button>
+				</form>
+			</div>
+		</div>
+		<!--Carta de datos-->
+		<div class="col-md-4 pt-4 contacto__datos w-auto">
+			<div class="card" style="width: 18rem;"> <img src="../multimedia/camiones (18).jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Lientur 860, Concepción</h5>
+					<p class="card-text">Transportes.lia.ltda@gmail.com</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item">+569 77676 684</li>
+					<li class="list-group-item">+569 33529 940</li>
+					<li class="list-group-item">+567 56628 609</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 </div>
+<!--footer-->
 <footer class="text-center text-lg-start bg-light text-muted">
-  <section    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-  </section>
-  <section class="">
-    <div class="container text-center text-md-start mt-5">
-      <div class="row mt-3">
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <h6 class="text-uppercase fw-bold mb-4">
+	<section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"> </section>
+	<section class="">
+		<div class="container text-center text-md-start mt-5">
+			<div class="row mt-3">
+				<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+					<h6 class="text-uppercase fw-bold mb-4">
             <i class="fas fa-gem me-3"></i>Transportes Lia limitada
           </h6>
-          <p>
-           Empresa de transporte de carga por carretera dirigida por sus dueños
-          </p>
-        </div>
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="text-uppercase fw-bold mb-4">
+					<p> Empresa de transporte de carga por carretera dirigida por sus dueños </p>
+				</div>
+				<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+					<h6 class="text-uppercase fw-bold mb-4">
             Enlaces
           </h6>
-          <p>
-            <a href="../secciones/quienesSomos.html" class="text-reset">Quienes Somos</a>
-          </p>
-          <p>
-            <a href="../secciones/galeria.html" class="text-reset">Galeria de fotos</a>
-          </p>
-          <p>
-            <a href="../secciones/servicios.html" class="text-reset">Servicios</a>
-          </p>
-          <p>
-            <a href="../secciones/contacto.html" class="text-reset">Contacto</a>
-          </p>
-        </div>
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="text-uppercase fw-bold mb-4">
+					<p> <a href="../secciones/quienesSomos.html" class="text-reset">Quienes Somos</a> </p>
+					<p> <a href="../secciones/galeria.html" class="text-reset">Galeria de fotos</a> </p>
+					<p> <a href="../secciones/servicios.html" class="text-reset">Servicios</a> </p>
+					<p> <a href="../secciones/contacto.html" class="text-reset">Contacto</a> </p>
+				</div>
+				<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+					<h6 class="text-uppercase fw-bold mb-4">
             Links de interes
           </h6>
-          <p>
-            <a href="https://paginawebcoderhouse.vercel.app/" target="_blank" class="text-reset">Vercel</a>
-          </p>
-          <p>
-            <a href="https://github.com/crsandovalb/paginawebcoderhouse" target="_blank" class="text-reset">Git Hub</a>
-          </p>
-          <p>
-            <a href="https://crsandovalb.github.io/paginawebcoderhouse/" target="_blank" class="text-reset">Github Pages</a>
-          </p>
-        </div>
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <h6 class="text-uppercase fw-bold mb-4">
+					<p> <a href="https://paginawebcoderhouse.vercel.app/" target="_blank" class="text-reset">Vercel</a> </p>
+					<p> <a href="https://github.com/crsandovalb/paginawebcoderhouse" target="_blank" class="text-reset">Git Hub</a> </p>
+					<p> <a href="https://crsandovalb.github.io/paginawebcoderhouse/" target="_blank" class="text-reset">Github Pages</a> </p>
+				</div>
+				<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+					<h6 class="text-uppercase fw-bold mb-4">
             contacto
           </h6>
-          <p><i class="fas fa-home me-3"></i>Lientur 860, Concepción</p>
-          <p>
-            <i class="fas fa-envelope me-3"></i>
-            transportes.lia.ltda@gmail.com
-          </p>
-          <p><i class="fas fa-phone me-3"></i> +569 7767 6684</p>
-          <p><i class="fas fa-print me-3"></i> +569 3352 9940</p>
-          <p><i class="fas fa-print me-3"></i> +569 5662 8609</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2021 Copyright:
-    <a class="text-reset fw-bold" href="../index.html">Transportes Lia</a>
-  </div>
+					<p><i class="fas fa-home me-3"></i>Lientur 860, Concepción</p>
+					<p> <i class="fas fa-envelope me-3"></i> transportes.lia.ltda@gmail.com </p>
+					<p><i class="fas fa-phone me-3"></i> +569 7767 6684</p>
+					<p><i class="fas fa-print me-3"></i> +569 3352 9940</p>
+					<p><i class="fas fa-print me-3"></i> +569 5662 8609</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);"> © 2021 Copyright: <a class="text-reset fw-bold" href="../index.html">Transportes Lia</a> </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
+
 </html>
