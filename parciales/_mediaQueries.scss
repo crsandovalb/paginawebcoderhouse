@@ -70,14 +70,29 @@
 }
 /*Tablet*/
 @media screen and (min-width:768px) and (max-width:1023.98px){
+    .indexBoton1{
+        margin-top: .8rem;
+    }
+    
     .lineaTiempo{
         margin-left: 0;
         padding-top: 0;
+    }
+
+    .quienesSomos__row{
+        --bs-gutter-x: 0;
+    }
+    .indexCarta2__txt{
+        margin-top: 1.2rem;
+    }
+    .indexCarrusel2__txt{
+        font-size: .8rem;
     }
 }
 
 /*TABLET GRANDE */ 
 @media screen and (min-width:1024px) and (max-width:1299.98px){
+
 }
 /* LAPTOP */
 @media screen and (min-width:1300px) and (max-width:1500px){

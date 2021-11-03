@@ -39,8 +39,11 @@
 }
 
 .quienesSomos__h1 {
-  font-size: 2rem;
-  font-weight: 500;
+  font-size: 1.5rem;
+  color: white;
+  background: #333333;
+  background: -webkit-gradient(linear, left top, right top, from(#dd1818), to(#333333));
+  background: linear-gradient(to right, #dd1818, #333333);
 }
 
 .lineaTiempo {
@@ -146,13 +149,28 @@
   margin-bottom: 0;
 }
 
+.galeria__h1 {
+  font-size: 1.5rem;
+  color: white;
+  background: #333333;
+  background: -webkit-gradient(linear, left top, right top, from(#dd1818), to(#333333));
+  background: linear-gradient(to right, #dd1818, #333333);
+}
+
 .servicio__h1 {
-  font-size: 1rem;
-  color: #6c757d;
+  font-size: 1.5rem;
+  color: white;
+  background: #333333;
+  background: -webkit-gradient(linear, left top, right top, from(#dd1818), to(#333333));
+  background: linear-gradient(to right, #dd1818, #333333);
 }
 
 .contacto__h1 {
   font-size: 1.5rem;
+  color: white;
+  background: #333333;
+  background: -webkit-gradient(linear, left top, right top, from(#dd1818), to(#333333));
+  background: linear-gradient(to right, #dd1818, #333333);
 }
 
 .contacto__carta {
@@ -234,9 +252,21 @@
 
 /*Tablet*/
 @media screen and (min-width: 768px) and (max-width: 1023.98px) {
+  .indexBoton1 {
+    margin-top: .8rem;
+  }
   .lineaTiempo {
     margin-left: 0;
     padding-top: 0;
+  }
+  .quienesSomos__row {
+    --bs-gutter-x: 0;
+  }
+  .indexCarta2__txt {
+    margin-top: 1.2rem;
+  }
+  .indexCarrusel2__txt {
+    font-size: .8rem;
   }
 }
 
