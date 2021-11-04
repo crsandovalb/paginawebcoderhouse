@@ -16,6 +16,9 @@
     .single-timeline-area{
         padding-left: 90px;
     }
+    .contServicios{
+        padding-bottom: 0.5rem;
+    }
    }
 
 /*Mobile M*/
@@ -42,6 +45,9 @@
     .single-timeline-area{
         padding-left: 120px;
     }
+    .contServicios{
+        padding-bottom: 0.5rem;
+    }
 }
 /*Mobile L*/
 @media screen and (min-width:425px) and (max-width:767.98px){
@@ -66,6 +72,9 @@
     }
     .single-timeline-area{
         padding-left: 120px;
+    }
+    .contServicios{
+        padding-bottom: 0.5rem;
     }
 }
 /*Tablet*/

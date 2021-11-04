@@ -21,6 +21,14 @@
   padding-left: 0;
 }
 
+.hipervinculoFooter {
+  text-decoration: none;
+}
+
+.hipervinculoFooter:hover {
+  text-decoration: underline;
+}
+
 .carruselFotos {
   padding-left: 0;
   padding-right: 0;
@@ -165,6 +173,15 @@
   background: linear-gradient(to right, #dd1818, #333333);
 }
 
+.hipervinculo {
+  text-decoration: none;
+  color: black;
+}
+
+.hipervinculo:hover {
+  color: #00AFF2;
+}
+
 .contacto__h1 {
   font-size: 1.5rem;
   color: white;
@@ -196,6 +213,9 @@
   .single-timeline-area {
     padding-left: 90px;
   }
+  .contServicios {
+    padding-bottom: 0.5rem;
+  }
 }
 
 /*Mobile M*/
@@ -222,6 +242,9 @@
   .single-timeline-area {
     padding-left: 120px;
   }
+  .contServicios {
+    padding-bottom: 0.5rem;
+  }
 }
 
 /*Mobile L*/
@@ -247,6 +270,9 @@
   }
   .single-timeline-area {
     padding-left: 120px;
+  }
+  .contServicios {
+    padding-bottom: 0.5rem;
   }
 }
 
