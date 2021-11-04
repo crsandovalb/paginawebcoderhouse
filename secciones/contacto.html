@@ -47,31 +47,52 @@
 						<legend class="col-form-label col-sm-2 pt-0">Camión</legend>
 						<div class="col-sm-10">
 							<div class="form-check formulario__tipoCamiones--camion1">
-								<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-								<label class="form-check-label" for="gridRadios1"> Camión 1 Freightliner FLA 8664 ST </label>
+								<input class="form-check-input" type="radio" name="camiones" id="camion1" value="option1" checked>
+								<label class="form-check-label" for="camion1"> Camión 1 Freightliner FLA 8664 ST </label>
 							</div>
 							<div class="form-check formulario__tipoCamiones--camion2">
-								<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-								<label class="form-check-label" for="gridRadios2"> Camión 2 Freightliner FLA 8664 </label>
+								<input class="form-check-input" type="radio" name="camiones" id="camion2" value="option2">
+								<label class="form-check-label" for="camion2"> Camión 2 Freightliner FLA 8664 </label>
 							</div>
 							<div class="mb-3 formulario__comentario">
-								<label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-								<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ingrese su mensaje"></textarea>
+								<label for="mensajeContacto" class="form-label">Mensaje</label>
+								<textarea class="form-control" id="mensajeContacto" rows="3" placeholder="Ingrese su mensaje"></textarea>
 							</div>
 						</div>
 					</fieldset>
-					<div class="row mb-3">
-						<div class="col-sm-10 offset-sm-2">
-							<div class="form-check formulario__checkInformacion">
-								<input class="form-check-input" type="checkbox" id="gridCheck1">
-								<label class="form-check-label" for="gridCheck1"> Acepto que la información proporcionada es la correcta </label>
-							</div>
-						</div>
-					</div>
-					<button type="submit" class="btn btn-primary btn-danger">Enviar</button>
+					<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+<!-- Buton enviar con modal -->
+<button type="button" class="btn btn-primary btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+	Enviar
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="staticBackdropLabel">Transportes Lia Limitada</h5>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+				<label class="form-check-label" for="flexCheckDefault">
+					Acepto que la información proporcionada es la correcta
+				</label>
+			  </div>
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver</button>
+		  <button type="submit" class="btn btn-primary btn-danger">Enviar</button>
+		</div>
+	  </div>
+	</div>
+  </div>					</div>
 				</form>
 			</div>
 		</div>
+
 		<!--Carta de datos-->
 		<div class="col-md-6 pt-4 contacto__datos w-auto text-center">
 			<div class="card" style="width: 18rem;"> 
